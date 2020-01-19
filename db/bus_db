@@ -1,0 +1,20 @@
+create table new_reports.bus_trip_revenue (
+  groupings varchar(30) DEFAULT NULL,
+
+  beginning datetime DEFAULT NULL,
+  initial_location  varchar(300) DEFAULT NULL,
+  end datetime DEFAULT NULL,
+  final_location  varchar(300) DEFAULT NULL,
+  driving_hours varchar(30) DEFAULT NULL,
+  engine_hours varchar(30) DEFAULT NULL,
+  mileage varchar(30) DEFAULT NULL,
+  initial_mileage varchar(30) DEFAULT NULL,
+  final_mileage varchar(30) DEFAULT NULL,
+  bus_utilization varchar(30) DEFAULT NULL,
+  driver varchar(130) DEFAULT NULL,
+  routeid varchar(30) DEFAULT NULL,
+  routename varchar(300) DEFAULT NULL,
+  routetype varchar(30) DEFAULT NULL,
+  routetime varchar(30) DEFAULT NULL,
+  routegroup varchar(30) DEFAULT NULL
+);
